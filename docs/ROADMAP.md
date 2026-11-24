@@ -2724,10 +2724,10 @@ Owner: open · Status: in progress
       SDK, `ANDROID_HOME`/`ANDROID_SDK_ROOT`, the usual install folder) and report platform tools,
       build tools, platforms, NDKs, command-line tools, emulator, system images and the virtual
       devices with their screen, density, ABI and memory, read from folders only
-      — claimed: mateussmeneses, branch feature/r6.1-android-sdk-check
+      — claimed: saxons-kicks, branch feature/r6.1-android-sdk-check
 - [x] `adb_emulators_list` and `adb_emulator_start`/`_stop`: start a virtual device through
       `platform::process` (it hands off; see the pitfall on launchers), wait for `sys.boot_completed`
-      — claimed: mateussmeneses, branch feature/r6.1-emulator-tools
+      — claimed: saxons-kicks, branch feature/r6.1-emulator-tools
 - [x] Find the SDK's own `aapt2`, `apksigner`, `zipalign` and `bundletool` (an engine table entry
       with a pin for bundletool), so later tools name one lookup
       (`android_sdk::Sdk::build_tool`, the engine crate's `android_build_tools`, reported in
